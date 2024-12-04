@@ -57,7 +57,7 @@ class _CustomNavbarPageState extends State<CustomNavbarPage> {
                     children: [
                       Icon(
                         Icons.home,
-                        color: _selectedIndex == 0 ? Colors.blue : Colors.grey,
+                        color: _selectedIndex == 0 ? Colors.blue : Colors.white,
                         size: 30,
                       ),
                       if (_selectedIndex == 0)
@@ -90,7 +90,7 @@ class _CustomNavbarPageState extends State<CustomNavbarPage> {
                     children: [
                       Icon(
                         Icons.search,
-                        color: _selectedIndex == 1 ? Colors.blue : Colors.grey,
+                        color: _selectedIndex == 1 ? Colors.blue : Colors.white,
                         size: 30,
                       ),
                       if (_selectedIndex == 1)

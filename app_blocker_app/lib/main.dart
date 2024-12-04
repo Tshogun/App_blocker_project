@@ -1,4 +1,4 @@
-import 'package:app_blocker_app/presentation/widgets/navbar.dart';
+import 'package:app_blocker_app/presentation/components/navbar.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -12,5 +12,5 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: CustomNavbarPage(),
     );
-  }
+  } 
 }
