@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 
-class FocusPage extends StatelessWidget{
+class ProgressPage extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Text("focus"),
+      body: Text("heya"),
     );
   }
 }
