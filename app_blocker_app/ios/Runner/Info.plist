@@ -45,5 +45,9 @@
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
+
+	<!-- Permission options for the `appTrackingTransparency` -->
+    <key>NSUserTrackingUsageDescription</key>
+    <string>appTrackingTransparency</string>
 </dict>
 </plist>
